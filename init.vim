@@ -115,17 +115,17 @@ map <LEADER>rc :e ~/.config/nvim/init.vim<CR>
 map <LEADER>st :Startify<CR>
 
 " Undo operations
-noremap l u
+" noremap l u
 
 " Insert Key
-noremap k i
-noremap K I
+" noremap k i
+" noremap K I
 
 " Copy to system clipboard
 vnoremap Y :w !xclip -i -sel c<CR>
 
 " Joining lines
-noremap H J
+" noremap H J
 
 " Indentation
 nnoremap < <<
@@ -152,26 +152,26 @@ map <silent> <LEADER>o za
 " < n   i >
 "     e
 "     v
-noremap <silent> u k
-noremap <silent> n h
-noremap <silent> e j
-noremap <silent> i l
+" noremap <silent> u k
+" noremap <silent> n h
+" noremap <silent> e j
+" noremap <silent> i l
 
 " U/E keys for 5 times u/e (faster navigation)
-noremap <silent> U 5k
-noremap <silent> E 5j
+noremap <silent> K 5k
+noremap <silent> J 5j
 
 " N key: go to the start of the line
-noremap <silent> N 0
+" noremap <silent> N 0
 " I key: go to the end of the line
-noremap <silent> I $
+" noremap <silent> I $
 
 " Faster in-line navigation
-noremap W 5w
-noremap B 5b
+" noremap W 5w
+" noremap B 5b
 
 " set h (same as n, cursor left) to 'end of word'
-noremap h e
+" noremap h e
 
 " Ctrl + U or E will move up/down the view port without moving the cursor
 noremap <C-U> 5<C-y>
@@ -183,10 +183,10 @@ noremap <C-E> 5<C-e>
 " ===
 " Use <space> + new arrow keys for moving the cursor around windows
 map <LEADER>w <C-w>w
-map <LEADER>u <C-w>k
-map <LEADER>e <C-w>j
-map <LEADER>n <C-w>h
-map <LEADER>i <C-w>l
+map <LEADER>k <C-w>k
+map <LEADER>j <C-w>j
+map <LEADER>h <C-w>h
+map <LEADER>l <C-w>l
 
 " Disabling the default s key
 noremap s <nop>
